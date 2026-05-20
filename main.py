@@ -25,6 +25,6 @@ for user in users:
             user["company"]["name"]
     ])
 
-workbook.save("users.xlsx")
+workbook.save("data/users.xlsx")
 
 print("Excel file created successfully.")
